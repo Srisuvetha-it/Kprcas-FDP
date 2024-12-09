@@ -1,0 +1,172 @@
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\sri>git init
+Reinitialized existing Git repository in D:/sri/.git/
+
+D:\sri>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/KPRCAS/AppData/Local/Programs/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=srisuvetha.rm@kprcas.ac.in
+user.name=Srisuvetha
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+D:\sri>git branch
+
+D:\sri>git branch -M main
+
+D:\sri>git branch
+
+D:\sri>git branch -a
+
+D:\sri>git branch -M main
+
+D:\sri>git remote add origin https://github.com/Srisuvetha-it/Kprcas-FDP.git
+
+D:\sri>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Srisuvetha-it/Kprcas-FDP.git'
+
+D:\sri>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Srisuvetha-it/Kprcas-FDP.git'
+
+D:\sri>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Srisuvetha-it/Kprcas-FDP.git'
+
+D:\sri>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Srisuvetha-it/Kprcas-FDP.git'
+
+D:\sri>git log -5
+fatal: your current branch 'main' does not have any commits yet
+
+D:\sri>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is 682D-425F
+
+ Directory of D:\sri
+
+09-12-2024  15:45    <DIR>          .
+09-12-2024  14:21    <DIR>          .vscode
+07-12-2024  15:14               457 about.html
+07-12-2024  15:14               459 contact.html
+07-12-2024  15:47            14,122 COURSE CONTENT - Dr.S.Sridevi-CG III CS.xlsx
+07-12-2024  15:14               459 gallery.html
+09-12-2024  10:02             1,406 index.html
+09-12-2024  10:28                 0 style.css
+               6 File(s)         16,903 bytes
+               2 Dir(s)  160,800,784,384 bytes free
+
+D:\sri>git add index.html
+
+D:\sri>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        COURSE CONTENT - Dr.S.Sridevi-CG III CS.xlsx
+        about.html
+        contact.html
+        gallery.html
+        style.css
+
+
+D:\sri>gitgit commit -m "first commit"
+'gitgit' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\sri>git branch -M main
+
+D:\sri>git remote add origin https://github.com/Srisuvetha-it/Kprcas-FDP.git
+error: remote origin already exists.
+
+D:\sri>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Srisuvetha-it/Kprcas-FDP.git'
+
+D:\sri>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Srisuvetha-it/Kprcas-FDP.git'
+
+D:\sri>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/KPRCAS/AppData/Local/Programs/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=srisuvetha.rm@kprcas.ac.in
+user.name=Srisuvetha
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Srisuvetha-it/Kprcas-FDP.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+D:\sri>
+
+
+
+
+
+
+in VS CODE 
+
+PS D:\sri> git log -5
+commit b07f577168a738e93472cef404411068c26ec2e8 (HEAD -> main)
+Author: Srisuvetha <srisuvetha.rm@kprcas.ac.in>
+Date:   Mon Dec 9 15:49:35 2024 +0530
+
+    index.html
+PS D:\sri> git push -u origin mian
+error: src refspec mian does not match any
+error: failed to push some refs to 'https://github.com/Srisuvetha-it/Kprcas-FDP.git'
+PS D:\sri> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 715 bytes | 715.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Srisuvetha-it/Kprcas-FDP.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\sri>
